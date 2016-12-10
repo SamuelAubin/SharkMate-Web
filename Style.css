@@ -1,22 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-
+ background: lavender;
 }
 
 nav {
   background: lightblue;
   margin: 0;
 padding: 10px;
+
 }
 
 .Title {
   color: blue;
   margin: 0;
   float: left;
-  padding: 11px 500px 0px 30px;
-  font-size: 30px;
-  font-family: "Arial"
+  padding: 11px 400px 0px 30px;
+  font-size: 35px;
+  font-family: "Comic Sans MS"
 }
 
 nav ul {
@@ -34,6 +35,16 @@ nav ul li a {
   padding: 0px 30px;
   color: white;
   font-size: 20px;
+  font-family: sans-serif;
+}
 
+.Sub-Title h1 {
+  position : absolute;
+  margin: 0px 600px 0px 100px;
+  font-size: 50px;
+  font-family: "Courier New"
+}
 
+.BG {
+  position : relative;
 }
