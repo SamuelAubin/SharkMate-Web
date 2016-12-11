@@ -1,14 +1,17 @@
 body {
   margin: 0;
   padding: 0;
- background: lavender;
+ background: white;
 }
 
 nav {
-  background: lightblue;
-  margin: 0;
+margin: 0;
 padding: 10px;
-
+z-index: 1;
+position: fixed;
+color: white;
+background: white;
+opacity: 0.9;
 }
 
 .Title {
@@ -21,19 +24,21 @@ padding: 10px;
 }
 
 nav ul {
-  display:inline
+  margin: 0px 300.3px;
+
+ display:inline
+
 }
 
 nav ul li {
 list-style: none;
-
+color: black
 }
 
 nav ul li a {
   color: black;
   text-decoration: none;
   padding: 0px 30px;
-  color: white;
   font-size: 20px;
   font-family: sans-serif;
 }
@@ -42,7 +47,7 @@ nav ul li a {
   color: white;
   z-index: 1;
   position : absolute;
-  margin: 500px 600px 0px 100px;
+  margin: 250px 600px 0px 100px;
   font-size: 70px;
   font-family: 'Droid Sans', arial, serif;
 
